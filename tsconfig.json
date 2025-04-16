@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "es5",                         // Specify ECMAScript target version
+      "lib": ["dom", "es2015"],                // Specify library files to include
+      "allowJs": true,                         // Allow JavaScript files to be compiled
+      "jsx": "react",                          // Specify JSX factory to use (React)
+      "module": "commonjs",                    // Specify module code generation method
+      "moduleResolution": "node",              // Use Node.js module resolution
+      "esModuleInterop": true,                 // Enable default imports from modules with no default export
+      "skipLibCheck": true,                    // Skip type checking of all declaration files
+      "forceConsistentCasingInFileNames": true,// Ensure consistent casing in file names
+      "outDir": "./dist",                      // Redirect output structure to the `dist` directory
+      "rootDir": "./src",                      // Specify the root directory of your source files
+      "resolveJsonModule": true                // Allow importing JSON files
+    },
+    "include": ["src/**/*"],                   // Include all files in the `src` folder
+    "exclude": ["node_modules"]                // Exclude the `node_modules` folder
+  }
+  
